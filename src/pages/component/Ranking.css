@@ -1,0 +1,133 @@
+.box-shadow1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  width: 78%;
+}
+.tableHeader {
+  font-size: 18px;
+  font-family: 'Microsoft YaHei', helvetica, Segeo, Arial, sans-serif;
+  margin: 5px 0;
+  padding-left: 12px;
+  background: url(./header.png) no-repeat 1px center;
+}
+
+.rank-top-box {
+  position: relative;
+  display: flex;
+  margin: 15px 5px 25px;
+  background: url(./table-bg.png) bottom no-repeat;
+}
+
+.rank-list-box {
+  flex: 1;
+  z-index: 1;
+  border: 1px solid #ddd;
+  transition: margin 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+h4, .h4 {
+  font-size: 18px;
+  color:rgb(0, 0, 0);
+  font-weight: inherit;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rank-top-box .rank-list-box .rank-head a {
+  transition: all 0.2s ease-in-out;
+  color: #555555;
+  text-shadow: 0 0 1px #555555;
+}
+
+.head-block-list a {
+  color: #555555;
+}
+
+a, a:hover, a:focus {
+  cursor: pointer;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+div {
+  display: block;
+}
+
+.rank-head {
+  letter-spacing: 3px;
+  border-bottom: 1px solid #ddd;
+  padding: 3px;
+  margin-right: -1px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.head-block-list-item {
+  font-size: 15px;
+  line-height: 32px;
+  padding-left: 5px;
+  display: block;
+  padding: 0 5px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.head-list-rank {
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding-right: 3px;
+}
+
+.rank-1 {
+  background: rgba(255, 75, 71, 0.75);
+} 
+.rank-2 {
+  background: rgba(255, 117, 85, 0.75);
+}
+.rank-3 {
+  background: rgba(255, 157, 82, 0.75);
+}
+
+.rank-top-box .rank-list-box .head-block-list .head-list-opts {
+  display: block;
+  width: 100%;
+  margin-bottom: -25px;
+  opacity: 0;
+  line-height: 25px;
+  transition: opacity 0.5s ease-in-out;
+}
+.text-center {
+  text-align: center;
+} 
+
+.rank-top-box .rank-list-box .head-block-list {
+  transition: all 0.2s ease-in-out;
+  padding: 20px 5px 30px;
+  margin-top: -1px;
+  margin-right: -1px;
+}
+
+.head-block-list-item a small {
+  font-size: 12px;
+  float: right;
+  margin-left: 2px;
+  color: #aaa;
+  letter-spacing: 0;
+  max-height: 32px;
+  line-height: 35px;
+}
