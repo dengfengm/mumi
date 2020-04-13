@@ -42,14 +42,31 @@ class BasicLayout extends Component {
                   <span>Users</span>
                   </Link>
                 </Menu.Item>
-    
-                <SubMenu
+                <Menu.Item key="product">
+                <Link to="/product">
+                  <Icon type="user" />
+                  <span>product</span>
+                  </Link>
+                </Menu.Item>
+                <Menu.Item key="comment">
+                <Link to="/comment">
+                  <Icon type="user" />
+                  <span>comment</span>
+                  </Link>
+                </Menu.Item>
+                <Menu.Item key="hotlist">
+                <Link to="/hotlist">
+                  <Icon type="user" />
+                  <span>hotlist</span>
+                  </Link>
+                </Menu.Item>
+                {/* <SubMenu
                   key="sub2"
                   title={<span><Icon type="team" /><span>Team</span></span>}
                 >
                   <Menu.Item key="6">Team 1</Menu.Item>
                   <Menu.Item key="8">Team 2</Menu.Item>
-                </SubMenu>
+                </SubMenu> */}
               </Menu>
             </Sider>
           <Layout>
