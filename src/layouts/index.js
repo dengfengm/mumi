@@ -36,12 +36,12 @@ class BasicLayout extends Component {
             </Link>
           </div>
               <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-                <Menu.Item key="users">
+                {/* <Menu.Item key="users">
                 <Link to="/users">
                   <Icon type="user" />
                   <span>Users</span>
                   </Link>
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item key="product">
                 <Link to="/product">
                   <Icon type="user" />
